@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>allcourses</class>
+ <widget class="QWidget" name="allcourses">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>671</width>
+    <height>468</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>30</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>所有课程信息</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>40</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>90</y>
+     <width>521</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>课程号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>课程名</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>学分</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>教师</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>地点</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
